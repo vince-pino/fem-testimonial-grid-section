@@ -1,3 +1,54 @@
+.bg-violet {
+  background-color: hsl(263, 55%, 52%);
+}
+
+.bg-grayish-blue {
+  background-color: hsl(217, 19%, 35%);
+}
+
+.bg-blackish-blue {
+  background-color: hsl(219, 29%, 14%);
+}
+
+.bg-light-gray {
+  background-color: hsl(0, 0%, 81%);
+}
+
+.bg-light-grayish-blue {
+  background-color: hsl(210, 46%, 95%);
+}
+
 body {
   font-family: "Barlow Semi Condensed";
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+main {
+  height: 100%;
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.card {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+header img {
+  border-radius: 100%;
+}
+
+.name {
+  font-weight: 600;
+  font-size: 20px;
 }
